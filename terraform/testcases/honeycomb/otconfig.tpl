@@ -8,9 +8,9 @@ exporters:
   logging:
     loglevel: debug
   honeycomb:
-    api_key: "my-api-key"
-    dataset: "my-dataset"
-	api_url: "${mock_endpoint}"
+    api_key: 'my-api-key'
+    dataset: 'my-dataset'
+	api_url: '${mock_endpoint}'
 	debug: true
 
 service:
